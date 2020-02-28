@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem 'github-pages', group: :jekyll_plugins
+gem "github-pages", "~> VERSION", group: :jekyll_plugins
 gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
