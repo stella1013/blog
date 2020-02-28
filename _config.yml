@@ -30,16 +30,7 @@ github_username:  stella1013
 # Build settings
 remote_theme: benbalter/retlab
 theme: minimal-mistakes-jekyll
-lsi: false
-safe: true
-source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache
