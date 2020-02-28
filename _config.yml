@@ -28,7 +28,8 @@ twitter_username: stell1013
 github_username:  stella1013
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: benbalter/retlab
+theme: minimal-mistakes-jekyll
 lsi: false
 safe: true
 source: [your repo's top level directory]
@@ -41,6 +42,8 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
