@@ -21,13 +21,11 @@
 title: Veronica Preston
 email: relativelydarling@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my blog all about Frontend Development. I'm a self professed language geek who loves to learn programming and spoken languages during my free time. My current obsessions right now are JavaScript/TypeScript and Korean. Sorry, this will be my Front-End Developer Blog you won't see much Korean on this blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: stell1013
+github_username:  stella1013
 
 # Build settings
 theme: jekyll-theme-minimal
