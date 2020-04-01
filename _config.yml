@@ -18,22 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: How JavaScript Works
+email: relativelyDarling@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm a self taught frontend developer who have found a love for all things JavaScript and TypeScript. I've always loved figuring out how things work. This site is my way of experimenting and figuring out the inner workings of Javascript.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: stella1013
+github_username:  stella1013
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
+show_excerpts: true
+jekyll_compose:
+  default_front_matter:
+      drafts:
+        description:
+        image:
+        category:
+        tags:
+      posts:
+        description:
+        image:
+        category:
+        tags:
+        published: false
+        sitemap: false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
